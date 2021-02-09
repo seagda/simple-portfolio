@@ -20,7 +20,7 @@
 <!-- HTML Structure starts here, using semantic tags -->
 
 <!-- Static top navigation starts here, adapted from WC3 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="#">My Portfolio</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,37 +29,46 @@
     <!-- Collapsible button goes here for small screens -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-  
-    <!-- Links go here -->
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-        
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-
-            <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+    <!-- Nav links go here -->
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
         </div>
     </nav>
 
-    <!-- Content of page starts here -->
+<!-- Content of page starts here -->
 
     <content class="container">
-        <p>here's our body</p>
+<!-- Page Heading goes here -->
+
+        <div class="row">
+            <div class="col-9">
+                <h1>Contact</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="formName">Name:</label>
+                        <input type="email" class="form-control" id="formName" placeholder="First &amp; Last">
+                    </div>
+                    <div class="form-group">
+                      <label for="formEmail">Email address</label>
+                      <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="formMsg">Message:</label>
+                      <textarea class="form-control" id="formMsg" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>                
+            </div>
+        </div>
+
     </content>
-    <section class="container"> 
-        here's a spacer
-    </section>
-    <footer class="container">
-        <p>Here's our footer text</p>
-    </footer>
 
-
-</main>
+<!-- Footer starts here -->
+<footer class="footerSticky text-center py-3">
+    &copy; 2020  <a href="https://github.com/seagda"> s.d.mullaney</a> <img src="assets/img/linkedin.svg" width="25px" alt="s.d. mullaney on LinkedIn">
+</footer>
 
 <!-- Adding the Bootstrap JavaScripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

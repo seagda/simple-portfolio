@@ -1,0 +1,23 @@
+.myLogoFont {
+    
+}
+
+.footerSticky {
+    border-top: 5px solid green;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: salmon;
+}
+
+.bodyBox {
+    background-color: seagreen;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+/*
+.footerSticky img {padding-bottom: 10px;}
+.footerSticky p {padding-bottom: 20px;} */
