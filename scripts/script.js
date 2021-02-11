@@ -1,12 +1,5 @@
-$(document).ready(function() {
-    $("#exampleModalLong").modal();
-  });
+// TODO: create document.onload?? to make sure jquery isn't executed until page is load
+// TODO: Once loaded, iterates over the array and creates a card for each project object 
 
-$('#exampleModalLong').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget) 
-    var recipient = button.data('whatever') 
-    var modal = $(this)
-    modal.find('.modal-title').text('New message to ' + recipient)
-    modal.find('.modal-body input').val(recipient)
-    console.log("Hello World") 
-});
+// TODO: include data-index attribute for index in the projects array of the corresponding object for that peroject
+// TODO: pass corresponding data into that modal based on the index position
