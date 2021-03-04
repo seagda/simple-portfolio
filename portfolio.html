@@ -37,10 +37,9 @@
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+          <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="about.html">Background</a></li>
-            <li><a class="dropdown-item" href="education.html">Education</a></li>
             <li><a class="dropdown-item" href="publications.html">Publications</a></li>
             <li><a class="dropdown-item" href="resume.html">Resume</a></li>
           </ul>
@@ -58,55 +57,42 @@
 <!-- intro text -->
     <div class="col-md-5">
       <h1>Portfolio</h1>
-      <p>A nicely written little paragraph will go in here.</p>
+      <p>This portfolio includes my most recent projects, developed as part of my full-time, intensive full-stack coding bootcamp at University of Washington. </p>
+      <p>They represent a mix of HTML, JavaScript, CSS, SQL, Node.js, and JQuery.</p>
     </div>
 <!-- featured project-->
     <div class="col-md-7">
       <div class="card">
         <div class="card-header">
-          Featured
+          ASF Dog Dossier Project
         </div>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">The Dog Dossier Project started as my mother's idea. In her "retirement," she operates a small farm in Piscataquis County, Maine, and volunteers for a nation-wide rescue organization, Australian Shepherds Furever. It turns out that there's no quality web application developed to help such organizations in their mission to save dogs. So we're building one...</p>
+          <a href="#" class="btn btn-primary">View Slides</a>
         </div>
       </div>
     </div>
   </div>
 
-  <h3>The cards for my projects will go in here.</h3>
   <div class="row flex-wrap justify-content-around" id="cards-row">
   </div>
 
-<!-- Button trigger modal -->
-
-  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Launch demo modal
-</button> -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="projectDisp" tabindex="-1" role="dialog" aria-labelledby="projDispTitle" aria-hidden="true">
+<!-- Project Modal -->
+<div class="modal fade" id="projectDisp" tabindex="-1" role="dialog" aria-labelledby="disp-title" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="projDispTitle">Project Title</h5>
-        <p class="card-text" id="disp-desc"></p>
-          <ul>
-          <li id="depl-link"></li>
-          <li id="repo-link"></li>
-          </ul>
-        <p class="card-text" id="disp-story"></p>
-        <p class="card-text" id="disp-award"></p>
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h5 class="modal-title" id="disp-title"></h5>
       </div>
       <div class="modal-body">
-        
-        all my friends are funeral singers.
+        <p class="card-text" id="disp-desc"></p>
+        <div id="thumbnail"></div>
+        <ul>
+          <li id="depl-link"></li>
+          <li id="repo-link"></li>
+        </ul>
+      <p class="card-text" id="disp-story"></p>
+      <p class="card-text" id="disp-award"></p>
 
       </div>
       <div class="modal-footer">
@@ -135,8 +121,8 @@
 
 <!-- Bootstrap Scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://unpkg.com/popper.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script> -->
+<!--<script src="https://unpkg.com/popper.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <script src="assets/scripts/projects.js"></script>

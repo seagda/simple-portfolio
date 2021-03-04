@@ -26,6 +26,11 @@ h3 {
     text-align: center;
 }
 
-/*
-.footerSticky img {padding-bottom: 10px;}
-.footerSticky p {padding-bottom: 20px;} */
+.resume {
+    height: 1500px;
+}
+
+.homeBody {
+    margin-left: 20px;
+    padding: 25px;
+}
